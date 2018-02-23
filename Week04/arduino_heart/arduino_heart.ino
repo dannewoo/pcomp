@@ -12,5 +12,4 @@ void setup() {
 void loop() {
   signal = analogRead(pulseSensor);
   Serial.println(signal);
-  
 }

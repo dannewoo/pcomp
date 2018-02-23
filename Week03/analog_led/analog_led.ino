@@ -11,5 +11,5 @@ void loop() {
   analogValue = analogRead(A0);
   brightness = analogValue/4;
   analogWrite(ledPin, brightness);
-  Serial.println(brightness);
+  Serial.println(analogValue);
 }
