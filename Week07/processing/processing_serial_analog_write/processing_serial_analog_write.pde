@@ -5,7 +5,7 @@ int val;
 
 void setup() {
   size(255, 255);
-  String portName = Serial.list()[13];
+  String portName = Serial.list()[7];
   myPort = new Serial(this, portName, 9600);
 }
 
