@@ -1,7 +1,6 @@
 import processing.serial.*;
 
 Serial myPort;
-int val;
 
 void setup() {
   size(255, 255);
