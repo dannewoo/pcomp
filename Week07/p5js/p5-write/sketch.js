@@ -1,5 +1,5 @@
 var serial;          // variable to hold an instance of the serialport library
-var portName = '/dev/cu.usbmodem1411';  // fill in your serial port name here
+var portName = '/dev/cu.usbmodem14201';  // fill in your serial port name here
  
 function setup() {
 	createCanvas(400, 300);          // make the canvas

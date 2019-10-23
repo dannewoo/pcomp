@@ -8,7 +8,7 @@ void setup() {
   size(400, 400);
   // change the number below to match your port:
   println(Serial.list());
-  String portName = Serial.list()[7];
+  String portName = Serial.list()[2];
   myPort = new Serial(this, portName, 9600);
   background(0);
 }
